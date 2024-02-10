@@ -13,29 +13,12 @@ Data Understanding
 The NYC Taxi and Limousine Commission data came from [NYC.gov](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page). The data consisted of approximately 408k unique trips and 18 features. The features included information on trip duration and destination, vendor used, toll information, and payment type. The bar chart below shows the breakdown of how many generous tippers (>20%) versus non-generous tippers that exist in the data set. 
 ![](https://github.com/RedaGrace/Taxi-Cab-Fares-Prediction/blob/main/images/tippers.png)
 
-In connection to this, a feature was engineered to represent if a ride was taken during rush hour or not. Multiple redundant columns were dropped and reformatted into the proper data type.  
+In connection with this, a feature was engineered to represent whether a ride was taken during rush hour or not. Multiple redundant columns were dropped and reformatted into the proper data type.  
 
 Modeling and Evaluation 
-A random forest model comprising 100 decision trees was used to determine feature importance in who would tip generously or not. The below plot shows that trip duration, distance, and the cost of a fare were the Top 3 most important factors in determining a generous tipper from a non-generous one. The overall model performed with 86% accuracy and 72% precision. 
+A random forest model comprising 100 decision trees was used to determine feature importance in who would tip generously or not. The plot below shows that trip duration, distance, and fare cost were the Top 3 most important factors in determining a generous tipper from a non-generous one. The overall model performed with 86% accuracy and 72% precision. 
 ![](https://github.com/RedaGrace/Taxi-Cab-Fares-Prediction/blob/main/images/fimpo.png)
 
+Conclusion
+This model can benefit Taxi Drivers in knowing if they will be tipped generously; however, running a parametric model to determine how much each variable will influence the actual price of the tip. In the future, adding more information on a rider’s past tipping behavior may also be beneficial in helping the stakeholder address their business problem. 
 
-
-
-
-
-Attached:
- - PACE Strategy Document to plan the project that considers the audience members, teammates, key milestones, and overall project goal. The PAC Strategy Document
-   * Is relevant to the project goals and related to data science.
-   * Demonstrates our understanding and assessment of the business scenario.
-   * Communicates the reasoning behind our decisions to pair PACE stages with specific tasks.
-     
- - Project proposal for the data team. The project proposal
-   * Clearly communicate the overall project goal 
-   * Identify key tasks, milestones, and stakeholders
-     
- - Python notebooks for each stage of the PACE strategy.
-
- - Executive summary which will keep our teammates at Automatidata informed of our progress. 
-    
-**Note**: The story, all names, characters, and incidents portrayed in this project are fictitious. No identification with actual persons (living or deceased) is intended or should be inferred. And, the data shared in this project has been created for pedagogical purposes. 
