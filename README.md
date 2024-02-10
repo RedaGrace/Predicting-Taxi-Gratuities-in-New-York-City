@@ -1,8 +1,7 @@
-# Taxi-Cab-Fares-Prediction
-**Developing a regression model that helps estimate taxi fares before the ride.**
+# Predicting Taxi Gratuities in New York City
 
-**Predicting Taxi Gratuities in New York City**
-Overview 
+
+**Overview **
 The goal of this project was to create a multiple linear regression and random forest model to predict high rider gratuity or not. This project utilized yellow taxi trips taken in New York City during 2017. The final random forest model performed with 86% accuracy and 72% precision determining what features were most important in separating low tippers from high tippers. Based on the model, the duration, distance, and cost of the trip were most influential in determining a generous tipper (>20%) vs a non-generous one (<20%). 
 Automatidata is consulting for the New York City Taxi and Limousine Commission (TLC). New York City TLC is an agency responsible for licensing and regulating New York City's taxi cabs and for-hire vehicles. The agency has partnered with Automatidata to develop a regression model that helps estimate taxi fares before the ride, based on data that TLC has gathered. 
 
