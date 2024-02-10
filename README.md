@@ -13,6 +13,13 @@ Data Understanding
 The NYC Taxi and Limousine Commission data came from [NYC.gov](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page). The data consisted of approximately 408k unique trips and 18 features. The features included information on trip duration and destination, vendor used, toll information, and payment type. The bar chart below shows the breakdown of how many generous tippers (>20%) versus non-generous tippers that exist in the data set. 
 ![](https://github.com/RedaGrace/Taxi-Cab-Fares-Prediction/blob/main/images/tippers.png)
 
+In connection to this, a feature was engineered to represent if a ride was taken during rush hour or not. Multiple redundant columns were dropped and reformatted into the proper data type.  
+
+Modeling and Evaluation 
+A random forest model comprising 100 decision trees was used to determine feature importance in who would tip generously or not. The below plot shows that trip duration, distance, and the cost of a fare were the Top 3 most important factors in determining a generous tipper from a non-generous one. The overall model performed with 86% accuracy and 72% precision. 
+![](https://github.com/RedaGrace/Taxi-Cab-Fares-Prediction/blob/main/images/fimpo.png)
+
+
 
 
 
