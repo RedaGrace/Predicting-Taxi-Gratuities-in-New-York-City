@@ -18,8 +18,8 @@ In connection with this, a feature was engineered to represent whether a ride wa
 
 **Modeling and Evaluation**
 
-A random forest model comprising 100 decision trees was used to determine feature importance in who would tip generously or not. The plot below shows that trip duration, distance, and fare cost were the Top 3 most important factors in determining a generous tipper from a non-generous one. The overall model performed with 86% accuracy and 72% precision. 
-![](https://github.com/RedaGrace/Taxi-Cab-Fares-Prediction/blob/main/images/fimpo.png)
+A random forest model comprising 400 decision trees was used to determine feature importance in who would tip generously or not. The plot below shows that VendorID, predicted_fare, mean_duration, and mean_distance were the Top 4 most important factors in determining a generous tipper from a non-generous one. The overall model performed with 86% accuracy and 72% precision. 
+![](images/feature-importances.png)
 
 **Conclusion**
 
